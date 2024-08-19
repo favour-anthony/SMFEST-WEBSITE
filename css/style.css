@@ -1,0 +1,133 @@
+body{
+    min-height: 300vh;
+    background-color: #08003C;
+    width: 100%;
+    overflow-x: hidden;
+}
+html{
+    overflow-x: hidden;
+}
+@media  screen and (max-width:769px ) {
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .theme{
+        font-size:60% ;
+        padding-top: 100px;
+    }
+    .good{
+        height: 15vh;
+    }
+    .px{
+        margin-right: 0;
+    }
+    .play-icon{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .play-icon span{
+        display: flex;
+        display: inline;
+    }
+    .owerri{
+        line-height: 120%;
+    }
+    .evolve{
+        line-height: 180%;
+    }
+    #border-button{
+        display: flex;
+        justify-content: center;
+    }
+    .border-button{
+        display: flex;
+        justify-content: center;
+    }
+    .attendance{
+        row-gap: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .image2{
+        height: 300px;
+        position: absolute;
+        top: 25px;
+        right: 60px;
+        z-index:1000 ;
+    }
+}
+@media  screen and (min-width:800px ){
+    .good{
+        width: 21%;
+        height: 27vh;
+    }
+    .owerri{
+        line-height: 130%;
+    }
+    .border-button{
+        display: flex;
+        justify-content:flex-end ;
+    }
+}
+header{
+    background-color:grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 108vh;
+    animation:backgroundchange 20s infinite;
+}
+@keyframes backgroundchange{
+    0%{
+        background-image:url(/images/WhatsApp\ Image\ 2024-08-12\ at\ 16.50.26_2084acec.jpg);
+    }
+    25%{
+        background-image:url(/images/WhatsApp\ Image\ 2024-08-12\ at\ 16.50.29_7802bb79.jpg);
+    }
+    50%{
+        background-image:url(/images/WhatsApp\ Image\ 2024-08-12\ at\ 16.50.31_b5d9b09f.jpg);
+    }
+    75%{
+        background-image:url(/images/WhatsApp\ Image\ 2024-08-12\ at\ 16.50.33_a2bd5e82.jpg);
+    }
+    100%{
+        background-image:url(/images/WhatsApp\ Image\ 2024-08-12\ at\ 16.50.35_3dfcdf94.jpg);
+    }
+}
+header div ul li{
+    list-style-type:none;
+    display: inline;
+    padding: 25px;
+}
+header div li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-size: large;
+}
+#active{
+    color: orangered;
+}
+li a:hover{
+    color:orangered;
+}
+.sponsor{
+    background-image: linear-gradient(to right, rgb(243, 81, 23), rgb(179, 21, 95));
+    color: white;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+.image1{
+    height: 640px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+.image2{
+    height:800px;
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    z-index:1000 ;
+}
