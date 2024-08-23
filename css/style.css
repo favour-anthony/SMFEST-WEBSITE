@@ -12,6 +12,9 @@ html{
         width: 100%;
         overflow-x: hidden;
     }
+    .mobile{
+        margin-top: 50px;
+    }
     .theme{
         font-size:60% ;
         padding-top: 100px;
@@ -56,6 +59,9 @@ html{
         right: 60px;
         z-index:1000 ;
     }
+    #volunteer{
+        margin-top: 150px;
+    }
 }
 @media  screen and (min-width:800px ){
     .good{
@@ -68,6 +74,9 @@ html{
     .border-button{
         display: flex;
         justify-content:flex-end ;
+    }
+    #volunteer{
+        margin-top: 380px;
     }
 }
 header{
@@ -130,4 +139,10 @@ li a:hover{
     top: 25px;
     right: 60px;
     z-index:1000 ;
+}
+.image3{
+    height: 640px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
 }
